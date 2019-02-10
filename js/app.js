@@ -46,4 +46,4 @@ socketIO.on('connection', function(socket) {
 
 //finally, start server
 server.listen(LISTEN_PORT);
-console.log('listening to port: ' + LISTEN_PORT);
+console.log('listening to port: 8080' + LISTEN_PORT);
