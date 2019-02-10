@@ -21,8 +21,8 @@ AFRAME.registerComponent('create-cow-component', {
         //see here: https://www.html5rocks.com/en/tutorials/speed/static-mem-pools/ 
         //see here: https://aframe.io/docs/0.8.0/components/pool.html
         let cowElem = document.createElement('a-entity');
-        cowElem.setAttribute('obj-model', {obj:'/assets/models/Cow.obj'});
-        cowElem.setAttribute('material', {src:'/assets/textures/Cow.png'});
+        cowElem.setAttribute('obj-model', {obj:'/assets/models/rex.obj'});
+        //cowElem.setAttribute('material', {src:'/assets/textures/Cow.png'});
         cowElem.setAttribute('remove-component', {}); 
         cowElem.setAttribute('position', {x:2, y:0, z:-4});
         
