@@ -26,4 +26,4 @@ app.get('/', function(req, res) {
 
 //start server
 server.listen(LISTEN_PORT);
-console.log('Listening on port: 8080' + LISTEN_PORT );
+console.log('Listening on port: ' + LISTEN_PORT );
